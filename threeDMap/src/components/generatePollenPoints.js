@@ -34,11 +34,7 @@ export async function generatePollenPointsBySuburbs(suburbNames) {
             if (finishedWorkers === numWorkers) {
               const pollenGeoJSON = {
                 type: 'FeatureCollection',
-                features: allPoints.map((point) => ({
-                  type: 'Feature',
-                  geometry: { type: 'Point', coordinates: [point.longitude, point.latitude] },
-                  properties: {},
-                })),
+                features: allPoints
               };
               allPointsBySuburb[suburbName] = { pollengeojson: pollenGeoJSON };
               workers.forEach(w => w.terminate());

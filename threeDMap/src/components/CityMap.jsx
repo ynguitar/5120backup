@@ -363,6 +363,7 @@ const MapContainer = () => {
           //             type: 'FeatureCollection',
           //             features: allPoints
           //           };
+          //           console.log("查下allpoints结构",allPoints);
           //           if (map.getSource('random-points')) {
           //             map.getSource('random-points').setData(JSON.parse(JSON.stringify(pointGeojson)));
           //           } else {
@@ -387,6 +388,36 @@ const MapContainer = () => {
           //       };
           //     }
           //   });
+
+
+          if (!currentPollenData || !currentPollenData[nearestSuburb.suburbName]) return;
+
+          const points = currentPollenData[nearestSuburb.suburbName].pollengeojson;
+
+
+
+          if (map.getSource('random-points')) {
+            map.getSource('random-points').setData(JSON.parse(JSON.stringify(points)));
+          } else {
+            map.addSource('random-points', {
+              type: 'geojson',
+              data: points
+            });
+
+            map.addLayer({
+              id: 'random-points-layer',
+              type: 'circle',
+              source: 'random-points',
+              paint: {
+                'circle-radius': 6,
+                'circle-color': '#ff0000',
+                'circle-opacity': 0.8
+              }
+            });
+
+            map.setLayoutProperty('random-points-layer', 'visibility', 'visible');
+          }
+
         });
   
         map.on('mouseleave', () => {

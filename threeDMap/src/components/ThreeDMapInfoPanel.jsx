@@ -8,7 +8,7 @@ const ThreeDMapInfoPanel = ({ suburb }) => {
     <div
       className="fixed top-0 left-0 h-screen w-[10%] bg-gray-800 bg-opacity-70 text-white p-4 z-50 overflow-y-auto"
     >
-        <h2 className="text-lg font-bold mb-2">{suburb.name.suburbName}</h2>
+        <h2 className="text-lg font-bold mb-2">{suburb.name}</h2>
         <p>Forest: {suburb.weather}</p>
         <p>Pollen: {suburb.pollen}</p>
         <div className="mt-2">

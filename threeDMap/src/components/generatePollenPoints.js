@@ -1,5 +1,6 @@
 import limit from 'p-limit';
 import Worker from "@/workers/randomPointWorker.js?worker";
+import * as turf from "@turf/turf";
 
 export async function generatePollenPointsBySuburbs(suburbNames) {
   const geojson = await fetch('/data/victoria_suburb_boundary.geojson').then(res => res.json());
@@ -15,9 +16,11 @@ export async function generatePollenPointsBySuburbs(suburbNames) {
       if (!feature) return;
 
       return new Promise((resolve) => {
-        const totalPoints = 100;
+        const area = turf.area(feature);
+        const density = 1 / 10000;
+        const totalPoints = Math.ceil(area * density);
         const numWorkers = 2;
-        const pointsPerWorker = totalPoints / numWorkers;
+        const pointsPerWorker = Math.ceil(totalPoints / numWorkers);
         const allPoints = [];
         const workers = [];
         let finishedWorkers = 0;
@@ -36,7 +39,7 @@ export async function generatePollenPointsBySuburbs(suburbNames) {
                 type: 'FeatureCollection',
                 features: allPoints
               };
-              allPointsBySuburb[suburbName] = { pollengeojson: pollenGeoJSON };
+              allPointsBySuburb[suburbName] = { pollengeojson: pollenGeoJSON,feature:feature };
               workers.forEach(w => w.terminate());
               resolve();
             }

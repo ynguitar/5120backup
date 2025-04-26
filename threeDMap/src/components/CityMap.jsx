@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import * as THREE from 'three';
 import { Threebox } from 'threebox-map';
 // import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { useParams } from 'react-router-dom';
+import { useParams,useNavigate } from 'react-router-dom';
 import Worker from "@/workers/randomPointWorker.js?worker";
 import 'mapbox-gl/dist/mapbox-gl.css';
 import 'threebox-plugin/dist/threebox.css';
@@ -11,20 +11,30 @@ import 'mapbox-gl/dist/mapbox-gl.js';
 import "./ThreeDmap.css";
 import ThreeDMapInfoPanel from './ThreeDMapInfoPanel';
 import { generatePollenPointsBySuburbs } from './generatePollenPoints';
+import { fetchForecast, fetchPollen } from './weatherQuery';
+import * as turf from "@turf/turf";
 
+
+function getRandomColor() {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  return `rgb(${r},${g},${b})`;
+}
 
 const MapContainer = () => {
   const [loading, setLoading] = useState(true);
   const [pollenData, setPollenData] = useState({});
   const pollenDataRef = useRef({});
+  const navigate = useNavigate();
   
   useEffect(() => {
       const preloadData = async () => {
         setLoading(true); // 显示等待框
         const initSuburbs = async () => {
-          const suburbList = await getSuburbsData(selectedCity);
+          const suburbList = await getSuburbsData(selectedCity,false);
           const result = await generatePollenPointsBySuburbs(suburbList); 
-          console.log("结果呢？",result);
+          // console.log("结果呢？",result);
         setPollenData(result);
         
         setLoading(false);
@@ -89,39 +99,32 @@ const MapContainer = () => {
         },
         labelLayerId
       );
+      map.addLayer({
+        id: 'highlight-buildings',
+        type: 'fill-extrusion',
+        source: 'composite',
+        'source-layer': 'building',
+        filter: ['==', 'extrude', 'true'], // 先只过滤可拉伸建筑
+        paint: {
+          'fill-extrusion-color': '#ffffff', // 默认白色，后面再改
+          'fill-extrusion-height': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            15, 0,
+            15.05, ['get', 'height']
+          ],
+          'fill-extrusion-opacity': 0.8
+        }
+      }, '3d-buildings');
     };
 
   
   useEffect(() => {
-    // const fetchData = async () => {
-    //   const response = await fetch(`/data/suburb_${selectedCity}.geojson`);
-    //   const geoJSONData = await response.json();
-
-    //   const list = geoJSONData.features.map((feature) => {
-    //     const suburbName = feature.properties.name || "Unnamed Suburb";
-    //     const coordinates = feature.geometry.coordinates;
-    //     let longitude = 0;
-    //     let latitude = 0;
-
-    //     if (feature.geometry.type === "Point") {
-    //       [longitude, latitude] = coordinates;
-    //     } else if (feature.geometry.type === "MultiPoint") {
-    //       [longitude, latitude] = coordinates[0];
-    //     }
-
-    //     return { suburbName, latitude, longitude };
-    //   });
-
-    //   setSuburbList(list);
-    // };
-
-    // if (selectedCity) fetchData();
-
-
-
     const loadSuburbs = async () => {
-        const suburbList = await getSuburbsData(selectedCity);
-        
+
+        const suburbList = await getSuburbsData(selectedCity,false);
+        console.log("被调用一次");
 
 
     mapboxgl.accessToken = 
@@ -153,7 +156,7 @@ const MapContainer = () => {
             }
           }))
         };
-        console.log("打印成功的", geojson);
+        // console.log("打印成功的", geojson);
         map.addSource('particles', {
           type: 'geojson',
           data: geojson,
@@ -298,9 +301,10 @@ const MapContainer = () => {
             <strong>Pollen Info:</strong> ${'Level 1' || 'None'}
             <strong>Infection:</strong> ${'Grass' || 'Others'}
           `;
+          // console.log("查下最近suburb天气",lastSuburb.forecast);
           if (lastSuburb) {
             setHoveredSuburb({
-              name: lastSuburb,
+              name: lastSuburb.suburbName,
               weather: "🌤️ Sunny and cloudy",
               pollen: "🌲 High",
               floor: "No. 3",
@@ -330,69 +334,49 @@ const MapContainer = () => {
             .setHTML(popupContent)
             .addTo(map);
             const currentPollenData = pollenDataRef.current;
-          console.log("初始化的花粉点位有没有？",currentPollenData);
-          // fetch('/data/victoria_suburb_boundary.geojson')
-          //   .then(res => res.json())
-          //   .then(geojson => {
-          //     const feature = geojson.features.find(f =>
-          //       f.properties.vic_loca_2.toLowerCase() === nearestSuburb.suburbName.toLowerCase()
-          //     );
-              
-          //     if (!feature) return;
-  
-          //     const workers = [];
-          //     const totalPoints = 200;
-          //     const numWorkers = 20;
-          //     const pointsPerWorker = totalPoints / numWorkers;
-          //     const allPoints = [];
-          //     let finishedWorkers = 0;
-          //     for (let i = 0; i < numWorkers; i++) {
-          //       workers[i] = new Worker();
-          //       workers[i].postMessage({
-          //         feature,
-          //         numPoints: pointsPerWorker
-          //       });
-  
-          //       workers[i].onmessage = (event) => {
-          //         const { points } = event.data;
-          //         allPoints.push(...points);
-          //         finishedWorkers++;
-  
-          //         if (finishedWorkers === numWorkers) {
-          //           const pointGeojson = {
-          //             type: 'FeatureCollection',
-          //             features: allPoints
-          //           };
-          //           console.log("查下allpoints结构",allPoints);
-          //           if (map.getSource('random-points')) {
-          //             map.getSource('random-points').setData(JSON.parse(JSON.stringify(pointGeojson)));
-          //           } else {
-          //             map.addSource('random-points', {
-          //               type: 'geojson',
-          //               data: pointGeojson
-          //             });
-  
-          //             map.addLayer({
-          //               id: 'random-points-layer',
-          //               type: 'circle',
-          //               source: 'random-points',
-          //               paint: {
-          //                 'circle-radius': 6,
-          //                 'circle-color': '#ff0000',
-          //                 'circle-opacity': 0.8
-          //               }
-          //             });
-          //             map.setLayoutProperty('random-points-layer', 'visibility', 'visible');
-          //           }
-          //         }
-          //       };
-          //     }
-          //   });
+          
+          const points = currentPollenData[nearestSuburb.suburbName].pollengeojson;
 
+
+          
+          const suburbFeature = currentPollenData[nearestSuburb.suburbName]?.feature;
+          const buildings = map.querySourceFeatures('composite', {
+            sourceLayer: 'building',
+            filter: ['all', ['==', 'extrude', 'true']]
+          });
+          // .filter(feature => turf.booleanPointInPolygon(turf.point(feature.geometry.coordinates[0]), suburbFeature));
+          console.log("看下建筑范围",buildings);
 
           if (!currentPollenData || !currentPollenData[nearestSuburb.suburbName]) return;
 
-          const points = currentPollenData[nearestSuburb.suburbName].pollengeojson;
+          
+          // console.log("看下维度范围",suburbFeature);
+          
+          const colorExpression = ['case'];
+          const heightExpression = ['case'];
+        
+          buildings.forEach(building => {
+            const id = building.id;
+            if (id !== undefined) {
+              colorExpression.push(['==', ['id'], id], getRandomColor());
+              heightExpression.push(['==', ['id'], id], 8);
+            }
+          });
+          colorExpression.push('#aaaaaa');
+
+          heightExpression.push(8);
+          
+          
+          map.setPaintProperty('highlight-buildings', 'fill-extrusion-color', colorExpression);
+          map.setPaintProperty('highlight-buildings', 'fill-extrusion-height', heightExpression);
+
+          // 设置过滤器，只显示当前 suburb 区域内的建筑物
+          map.setFilter('highlight-buildings', [
+            'all',
+            ['==', 'extrude', 'true'],
+            ['within', suburbFeature.geometry]
+          ]);
+
 
 
 
@@ -410,7 +394,7 @@ const MapContainer = () => {
               source: 'random-points',
               paint: {
                 'circle-radius': 6,
-                'circle-color': '#ff0000',
+                'circle-color':  ['get', 'color'],
                 'circle-opacity': 0.8
               }
             });
@@ -537,24 +521,69 @@ const MapContainer = () => {
   }
 
 
-  async function getSuburbsData(cityName) {
-    const geojsonPath = `/data/suburb_${cityName}.geojson`;
+  // async function getSuburbsData(cityName) {
+  //   const geojsonPath = `/data/suburb_${cityName}.geojson`;
     
-    const suburbList = [];
+  //   const suburbList = [];
 
+  //   try {
+  //     const response = await fetch(geojsonPath);
+
+  //     // const contentType = response.headers.get("content-type");
+  //     if (!response.ok ) {
+  //       throw new Error("Invalid GeoJSON file or path");
+  //     }
+  //     const geoJSONData = await response.json();
+
+  //     geoJSONData.features.forEach((feature) => {
+  //       const suburbName = feature.properties.name || "Unnamed Suburb";
+  //       const coordinates = feature.geometry.coordinates;
+        
+
+  //       let longitude, latitude;
+  //       if (feature.geometry.type === 'Point') {
+  //         longitude = coordinates[0];
+  //         latitude = coordinates[1];
+  //       } else if (feature.geometry.type === 'MultiPoint') {
+  //         longitude = coordinates[0][0];
+  //         latitude = coordinates[0][1];
+  //       } else {
+  //         console.warn("Unsupported geometry type:", feature.geometry.type);
+  //         return;
+  //       }
+
+  //       suburbList.push({
+  //         suburbName: suburbName,
+  //         latitude: latitude,
+  //         longitude: longitude,
+  //       });
+  //     });
+
+  //     return suburbList;
+  //   } catch (error) {
+  //     console.error("Error loading GeoJSON:", error);
+  //     return [];
+  //   }
+  // }
+
+  async function getSuburbsData(cityName, includeForecastAndPollen = false) {
+    const geojsonPath = `/data/suburb_${cityName}.geojson`;
+    const suburbList = [];
+    if(includeForecastAndPollen){console.log("二层函数被调用一次");}
+    
     try {
       const response = await fetch(geojsonPath);
-
-      // const contentType = response.headers.get("content-type");
-      if (!response.ok ) {
+  
+      if (!response.ok) {
         throw new Error("Invalid GeoJSON file or path");
       }
+  
       const geoJSONData = await response.json();
-
-      geoJSONData.features.forEach((feature) => {
+      console.log("GeoJSON features count:", geoJSONData.features.length);
+      for (const feature of geoJSONData.features) {
         const suburbName = feature.properties.name || "Unnamed Suburb";
         const coordinates = feature.geometry.coordinates;
-
+  
         let longitude, latitude;
         if (feature.geometry.type === 'Point') {
           longitude = coordinates[0];
@@ -564,22 +593,37 @@ const MapContainer = () => {
           latitude = coordinates[0][1];
         } else {
           console.warn("Unsupported geometry type:", feature.geometry.type);
-          return;
+          continue;
         }
-
+  
+        let forecast = null;
+        let pollen = null;
+  
+        if (includeForecastAndPollen) {
+          // 只有在需要的时候才去拉取
+          forecast = await fetchForecast(latitude, longitude);
+          // console.log(forecast);
+          // pollen = await fetchPollen(latitude, longitude);
+        }
+  
         suburbList.push({
-          suburbName: suburbName,
-          latitude: latitude,
-          longitude: longitude,
+          suburbName,
+          latitude,
+          longitude,
+          forecast,
+          pollen
         });
-      });
-
+      }
+  
       return suburbList;
     } catch (error) {
       console.error("Error loading GeoJSON:", error);
       return [];
     }
   }
+
+
+
 
   return (
     // <div className="relative">
@@ -640,7 +684,44 @@ const MapContainer = () => {
     >
       <ThreeDMapInfoPanel suburb={hoveredSuburb} />
     </div>
-
+    <div
+        style={{
+          position: 'absolute',
+          bottom: '20px',
+          right: '20px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '10px',
+          zIndex: 1000, // 与ThreeDMapInfoPanel同级，确保显示
+        }}
+      >
+        <button
+          onClick={() => navigate('/')} // 跳转到主页
+          style={{
+            backgroundColor: 'rgba(75, 85, 99, 0.6)',
+            color: 'white',
+            border: 'none',
+            padding: '10px 20px',
+            borderRadius: '5px',
+            cursor: 'pointer',
+          }}
+        >
+          Home
+        </button>
+        <button
+          onClick={() => navigate(-1)} // 返回上一页
+          style={{
+            backgroundColor: 'rgba(75, 85, 99, 0.6)',
+            color: 'white',
+            border: 'none',
+            padding: '10px 20px',
+            borderRadius: '5px',
+            cursor: 'pointer',
+          }}
+        >
+          Back
+        </button>
+      </div>
 
     
       {/* <div id="map-container">

@@ -16,6 +16,7 @@ import { generatePollenPointsBySuburbs } from './generatePollenPoints';
 const MapContainer = () => {
   const [loading, setLoading] = useState(true);
   const [pollenData, setPollenData] = useState({});
+  const pollenDataRef = useRef({});
   
   useEffect(() => {
       const preloadData = async () => {
@@ -25,14 +26,19 @@ const MapContainer = () => {
           const result = await generatePollenPointsBySuburbs(suburbList); 
           console.log("结果呢？",result);
         setPollenData(result);
+        
+        setLoading(false);
       }
       initSuburbs();
-      setLoading(false); // 隐藏等待框
+      
       };
     
-      preloadData();
+      preloadData();   
+      // console.log("看看pollen数据",pollenData);
     }, []);
-
+    useEffect(() => {
+      pollenDataRef.current = pollenData;
+    },[pollenData]);
 
 
     const {  cityName } = useParams();
@@ -116,8 +122,6 @@ const MapContainer = () => {
     const loadSuburbs = async () => {
         const suburbList = await getSuburbsData(selectedCity);
         
-        
-      
 
 
     mapboxgl.accessToken = 
@@ -325,63 +329,64 @@ const MapContainer = () => {
             .setLngLat([lng, lat])
             .setHTML(popupContent)
             .addTo(map);
-          console.log("初始化的花粉点位有没有？",pollenData);
-          fetch('/data/victoria_suburb_boundary.geojson')
-            .then(res => res.json())
-            .then(geojson => {
-              const feature = geojson.features.find(f =>
-                f.properties.vic_loca_2.toLowerCase() === nearestSuburb.suburbName.toLowerCase()
-              );
+            const currentPollenData = pollenDataRef.current;
+          console.log("初始化的花粉点位有没有？",currentPollenData);
+          // fetch('/data/victoria_suburb_boundary.geojson')
+          //   .then(res => res.json())
+          //   .then(geojson => {
+          //     const feature = geojson.features.find(f =>
+          //       f.properties.vic_loca_2.toLowerCase() === nearestSuburb.suburbName.toLowerCase()
+          //     );
+              
+          //     if (!feature) return;
   
-              if (!feature) return;
+          //     const workers = [];
+          //     const totalPoints = 200;
+          //     const numWorkers = 20;
+          //     const pointsPerWorker = totalPoints / numWorkers;
+          //     const allPoints = [];
+          //     let finishedWorkers = 0;
+          //     for (let i = 0; i < numWorkers; i++) {
+          //       workers[i] = new Worker();
+          //       workers[i].postMessage({
+          //         feature,
+          //         numPoints: pointsPerWorker
+          //       });
   
-              const workers = [];
-              const totalPoints = 200;
-              const numWorkers = 20;
-              const pointsPerWorker = totalPoints / numWorkers;
-              const allPoints = [];
-              let finishedWorkers = 0;
-              for (let i = 0; i < numWorkers; i++) {
-                workers[i] = new Worker();
-                workers[i].postMessage({
-                  feature,
-                  numPoints: pointsPerWorker
-                });
+          //       workers[i].onmessage = (event) => {
+          //         const { points } = event.data;
+          //         allPoints.push(...points);
+          //         finishedWorkers++;
   
-                workers[i].onmessage = (event) => {
-                  const { points } = event.data;
-                  allPoints.push(...points);
-                  finishedWorkers++;
+          //         if (finishedWorkers === numWorkers) {
+          //           const pointGeojson = {
+          //             type: 'FeatureCollection',
+          //             features: allPoints
+          //           };
+          //           if (map.getSource('random-points')) {
+          //             map.getSource('random-points').setData(JSON.parse(JSON.stringify(pointGeojson)));
+          //           } else {
+          //             map.addSource('random-points', {
+          //               type: 'geojson',
+          //               data: pointGeojson
+          //             });
   
-                  if (finishedWorkers === numWorkers) {
-                    const pointGeojson = {
-                      type: 'FeatureCollection',
-                      features: allPoints
-                    };
-                    if (map.getSource('random-points')) {
-                      map.getSource('random-points').setData(JSON.parse(JSON.stringify(pointGeojson)));
-                    } else {
-                      map.addSource('random-points', {
-                        type: 'geojson',
-                        data: pointGeojson
-                      });
-  
-                      map.addLayer({
-                        id: 'random-points-layer',
-                        type: 'circle',
-                        source: 'random-points',
-                        paint: {
-                          'circle-radius': 6,
-                          'circle-color': '#ff0000',
-                          'circle-opacity': 0.8
-                        }
-                      });
-                      map.setLayoutProperty('random-points-layer', 'visibility', 'visible');
-                    }
-                  }
-                };
-              }
-            });
+          //             map.addLayer({
+          //               id: 'random-points-layer',
+          //               type: 'circle',
+          //               source: 'random-points',
+          //               paint: {
+          //                 'circle-radius': 6,
+          //                 'circle-color': '#ff0000',
+          //                 'circle-opacity': 0.8
+          //               }
+          //             });
+          //             map.setLayoutProperty('random-points-layer', 'visibility', 'visible');
+          //           }
+          //         }
+          //       };
+          //     }
+          //   });
         });
   
         map.on('mouseleave', () => {
@@ -589,7 +594,7 @@ const MapContainer = () => {
       </div>
     )}
 
-    {/* <div
+    <div
       style={{
         position: 'absolute',
         top: 0,
@@ -603,13 +608,26 @@ const MapContainer = () => {
       }}
     >
       <ThreeDMapInfoPanel suburb={hoveredSuburb} />
-    </div> */}
+    </div>
 
 
     
       {/* <div id="map-container">
         <div id="map" ref={mapContainerRef} style={{ width: '100%', height: '100vh' }}></div>
       </div> */}
+
+      <div
+          id="map-container"
+          style={{
+            pointerEvents: loading ? 'none' : 'auto', // 禁用地图交互
+          }}
+        >
+          <div
+            id="map"
+            ref={mapContainerRef}
+            style={{ width: '100%', height: '100vh' }}
+          ></div>
+        </div>
 
     </div>
   );

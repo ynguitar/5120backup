@@ -1,0 +1,7078 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-07T00:35:27Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30685977",
+        "name": "Heathmont",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2458609,
+          -37.8288232
+        ]
+      },
+      "id": "node/30685977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30929281",
+        "name": "Launching Place",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.5691921,
+          -37.7806769
+        ]
+      },
+      "id": "node/30929281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/67340420",
+        "name": "Dandenong",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2147923,
+          -37.98749
+        ]
+      },
+      "id": "node/67340420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/97160788",
+        "ele": "108",
+        "name": "Lilydale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.352405,
+          -37.7576639
+        ]
+      },
+      "id": "node/97160788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/98159497",
+        "name": "Wheelers Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1895175,
+          -37.9103266
+        ]
+      },
+      "id": "node/98159497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/154212466",
+        "ele": "6",
+        "gnis:feature_id": "294332",
+        "name": "Eau Gallie",
+        "place": "suburb",
+        "wikidata": "Q5331447",
+        "wikipedia": "en:Eau Gallie, Florida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6310385,
+          28.1296214
+        ]
+      },
+      "id": "node/154212466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/192827647",
+        "name": "Seville East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4988109,
+          -37.7743
+        ]
+      },
+      "id": "node/192827647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/203298512",
+        "name": "Oakleigh South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0921745,
+          -37.9248257
+        ]
+      },
+      "id": "node/203298512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/214828619",
+        "name": "Box Hill North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1295748,
+          -37.8056831
+        ]
+      },
+      "id": "node/214828619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/222783175",
+        "name": "Carlton North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9728553,
+          -37.7845585
+        ]
+      },
+      "id": "node/222783175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/229281728",
+        "name": "Strathmore",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9182433,
+          -37.7333202
+        ]
+      },
+      "id": "node/229281728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/234510960",
+        "name": "Blackburn South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1487848,
+          -37.8388322
+        ]
+      },
+      "id": "node/234510960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/246581746",
+        "name": "Fitzroy North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9837074,
+          -37.7833316
+        ]
+      },
+      "id": "node/246581746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253347259",
+        "name": "Laverton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7671404,
+          -37.8593822
+        ]
+      },
+      "id": "node/253347259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/259578082",
+        "name": "Doveton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2385975,
+          -37.9887542
+        ]
+      },
+      "id": "node/259578082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276618999",
+        "name": "Bulla",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8027227,
+          -37.6347957
+        ]
+      },
+      "id": "node/276618999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/277357248",
+        "name": "Surrey Hills",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0978326,
+          -37.8271881
+        ]
+      },
+      "id": "node/277357248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/289625028",
+        "name": "Silvan",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4196179,
+          -37.8232257
+        ]
+      },
+      "id": "node/289625028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/301288582",
+        "name": "Oak Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9189712,
+          -37.7181626
+        ]
+      },
+      "id": "node/301288582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/311246647",
+        "name": "Reservoir",
+        "place": "suburb",
+        "population": "51096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0074935,
+          -37.7123767
+        ]
+      },
+      "id": "node/311246647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/368949159",
+        "name": "McKinnon",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03863,
+          -37.9105942
+        ]
+      },
+      "id": "node/368949159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/369117970",
+        "name": "Bentleigh",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0409246,
+          -37.9185101
+        ]
+      },
+      "id": "node/369117970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/614465526",
+        "name": "Merricks Beach",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1063593,
+          -38.3989141
+        ]
+      },
+      "id": "node/614465526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/614465804",
+        "name": "Balnarring Beach",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1200713,
+          -38.3912033
+        ]
+      },
+      "id": "node/614465804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/617532907",
+        "name": "Balnarring",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1171365,
+          -38.3707915
+        ]
+      },
+      "id": "node/617532907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/748716955",
+        "name": "Kingsbury",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0355601,
+          -37.715569
+        ]
+      },
+      "id": "node/748716955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/764841729",
+        "name": "Donnybrook",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9702565,
+          -37.5427836
+        ]
+      },
+      "id": "node/764841729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/805061317",
+        "name": "Briar Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1216479,
+          -37.7063703
+        ]
+      },
+      "id": "node/805061317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/821828362",
+        "name": "Mont Albert North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1107226,
+          -37.8033152
+        ]
+      },
+      "id": "node/821828362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/827579263",
+        "name": "Altona Meadows",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7845482,
+          -37.8814419
+        ]
+      },
+      "id": "node/827579263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1059127477",
+        "name": "Sandhurst",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2011775,
+          -38.0843524
+        ]
+      },
+      "id": "node/1059127477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1059211028",
+        "name": "Mulgrave",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1723107,
+          -37.9261741
+        ]
+      },
+      "id": "node/1059211028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1060112701",
+        "name": "Craigieburn",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9108265,
+          -37.5901421
+        ]
+      },
+      "id": "node/1060112701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1102786157",
+        "name": "Ormond",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0432907,
+          -37.9039946
+        ]
+      },
+      "id": "node/1102786157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1102805633",
+        "name": "Werribee South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.697546,
+          -37.939627
+        ]
+      },
+      "id": "node/1102805633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1103012307",
+        "name": "Narre Warren South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3028513,
+          -38.05439
+        ]
+      },
+      "id": "node/1103012307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1104279359",
+        "name": "Forest Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1690911,
+          -37.8362738
+        ]
+      },
+      "id": "node/1104279359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1105717734",
+        "name": "Avondale Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.862141,
+          -37.7614537
+        ]
+      },
+      "id": "node/1105717734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1105717735",
+        "name": "Maribyrnong",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8902049,
+          -37.7695144
+        ]
+      },
+      "id": "node/1105717735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1110267733",
+        "name": "Panton Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2390413,
+          -37.6413636
+        ]
+      },
+      "id": "node/1110267733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1110282700",
+        "name": "Kangaroo Ground",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2158904,
+          -37.6918649
+        ]
+      },
+      "id": "node/1110282700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1110858013",
+        "name": "Watsonia North",
+        "place": "suburb",
+        "population": "3799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.084977,
+          -37.696046
+        ]
+      },
+      "id": "node/1110858013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1110896508",
+        "name": "Bellfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0384784,
+          -37.7531065
+        ]
+      },
+      "id": "node/1110896508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1110913901",
+        "name": "Heidelberg",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0701284,
+          -37.7524788
+        ]
+      },
+      "id": "node/1110913901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1110920607",
+        "name": "Rosanna",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0696349,
+          -37.7396345
+        ]
+      },
+      "id": "node/1110920607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1111073921",
+        "name": "Heidelberg West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0433922,
+          -37.7382431
+        ]
+      },
+      "id": "node/1111073921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1111075734",
+        "name": "Heidelberg Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0529194,
+          -37.7451831
+        ]
+      },
+      "id": "node/1111075734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1111456169",
+        "name": "Yan Yean",
+        "place": "suburb",
+        "population": "246"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.107832,
+          -37.569134
+        ]
+      },
+      "id": "node/1111456169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1721486843",
+        "name": "Coldstream",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.378424,
+          -37.7291014
+        ]
+      },
+      "id": "node/1721486843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2026207867",
+        "name": "Mambourin",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5947762,
+          -37.8908261
+        ]
+      },
+      "id": "node/2026207867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085444559",
+        "name": "Greensborough",
+        "place": "suburb",
+        "population": "21070",
+        "wikipedia": "en:Greensborough, Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1074004,
+          -37.6988474
+        ]
+      },
+      "id": "node/2085444559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085695582",
+        "name": "Essendon Fields",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9004134,
+          -37.7269212
+        ]
+      },
+      "id": "node/2085695582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2086299830",
+        "name": "Northcote",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0009469,
+          -37.7728157
+        ]
+      },
+      "id": "node/2086299830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2086300964",
+        "name": "Thornbury",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0051501,
+          -37.7582744
+        ]
+      },
+      "id": "node/2086300964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2087140700",
+        "name": "Docklands",
+        "name:zh-Hans": "港区",
+        "name:zh-Hant": "港區",
+        "place": "suburb",
+        "population": "17723",
+        "population:date": "June 30 2023",
+        "wikidata": "Q5287226",
+        "wikipedia": "en:Docklands, Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9394923,
+          -37.8175423
+        ]
+      },
+      "id": "node/2087140700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088402468",
+        "name": "Malvern",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0350666,
+          -37.8576088
+        ]
+      },
+      "id": "node/2088402468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088403020",
+        "name": "St Kilda",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.981637,
+          -37.8638261
+        ]
+      },
+      "id": "node/2088403020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089443127",
+        "name": "Montmorency",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1256231,
+          -37.7189715
+        ]
+      },
+      "id": "node/2089443127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089443899",
+        "name": "Macleod",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.069828,
+          -37.7204404
+        ]
+      },
+      "id": "node/2089443899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089464955",
+        "name": "Watsonia",
+        "place": "suburb",
+        "population": "5352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0832709,
+          -37.7097848
+        ]
+      },
+      "id": "node/2089464955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089497945",
+        "name": "Fairfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0158191,
+          -37.7845032
+        ]
+      },
+      "id": "node/2089497945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089498198",
+        "name": "Alphington",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0308824,
+          -37.7803992
+        ]
+      },
+      "id": "node/2089498198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089501541",
+        "name": "Clifton Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9975371,
+          -37.7904385
+        ]
+      },
+      "id": "node/2089501541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089501763",
+        "name": "Collingwood",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9881387,
+          -37.802104
+        ]
+      },
+      "id": "node/2089501763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089501965",
+        "name": "Fitzroy",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9792611,
+          -37.8010382
+        ]
+      },
+      "id": "node/2089501965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089502095",
+        "name": "Abbotsford",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9988542,
+          -37.8045508
+        ]
+      },
+      "id": "node/2089502095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089502211",
+        "name": "East Melbourne",
+        "name:fr": "Melbourne-Est",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9858851,
+          -37.812498
+        ]
+      },
+      "id": "node/2089502211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089502391",
+        "name": "Richmond",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0025144,
+          -37.820386
+        ]
+      },
+      "id": "node/2089502391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2089502450",
+        "name": "Cremorne",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9927735,
+          -37.8290227
+        ]
+      },
+      "id": "node/2089502450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2090529953",
+        "name": "Southbank",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9640203,
+          -37.8253618
+        ]
+      },
+      "id": "node/2090529953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2090531063",
+        "name": "South Wharf",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9493432,
+          -37.8253279
+        ]
+      },
+      "id": "node/2090531063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2090532856",
+        "name": "Port Melbourne",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9219203,
+          -37.8333613
+        ]
+      },
+      "id": "node/2090532856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091494697",
+        "name": "Tarneit",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6646643,
+          -37.8354458
+        ]
+      },
+      "id": "node/2091494697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091498746",
+        "name": "Hoppers Crossing",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6949625,
+          -37.8665704
+        ]
+      },
+      "id": "node/2091498746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091499855",
+        "name": "Point Cook",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7533059,
+          -37.9064862
+        ]
+      },
+      "id": "node/2091499855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091501661",
+        "name": "Derrimut",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.776051,
+          -37.7987978
+        ]
+      },
+      "id": "node/2091501661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091502275",
+        "name": "Burnside",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.753027,
+          -37.749374
+        ]
+      },
+      "id": "node/2091502275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091502446",
+        "name": "Burnside Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7555804,
+          -37.7324225
+        ]
+      },
+      "id": "node/2091502446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091502500",
+        "name": "Taylors Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7533127,
+          -37.7152241
+        ]
+      },
+      "id": "node/2091502500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091502832",
+        "name": "Albanvale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7685623,
+          -37.7460824
+        ]
+      },
+      "id": "node/2091502832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091503269",
+        "name": "Cairnlea",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7878098,
+          -37.7593157
+        ]
+      },
+      "id": "node/2091503269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091503577",
+        "name": "Keilor Downs",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8047614,
+          -37.7205762
+        ]
+      },
+      "id": "node/2091503577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091503656",
+        "name": "St Albans",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.804976,
+          -37.7450983
+        ]
+      },
+      "id": "node/2091503656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091504373",
+        "name": "Kings Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7719526,
+          -37.7337122
+        ]
+      },
+      "id": "node/2091504373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091505017",
+        "name": "Sunshine North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8361969,
+          -37.7639467
+        ]
+      },
+      "id": "node/2091505017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141184396",
+        "name": "Deepdene",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0664377,
+          -37.8121234
+        ]
+      },
+      "id": "node/2141184396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141186264",
+        "name": "Balwyn",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0833678,
+          -37.8091737
+        ]
+      },
+      "id": "node/2141186264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141188796",
+        "name": "Mont Albert",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1075721,
+          -37.8175479
+        ]
+      },
+      "id": "node/2141188796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141190011",
+        "name": "Kew East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0527906,
+          -37.7904215
+        ]
+      },
+      "id": "node/2141190011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141191909",
+        "name": "Kew",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0333285,
+          -37.8033586
+        ]
+      },
+      "id": "node/2141191909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141194136",
+        "name": "Hawthorn East",
+        "place": "suburb",
+        "wikidata": "Q5685486"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0499797,
+          -37.8313785
+        ]
+      },
+      "id": "node/2141194136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141194465",
+        "name": "Camberwell",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0740767,
+          -37.8384623
+        ]
+      },
+      "id": "node/2141194465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141197549",
+        "name": "Canterbury",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0757933,
+          -37.8243448
+        ]
+      },
+      "id": "node/2141197549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141203083",
+        "name": "Parkville",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9515533,
+          -37.7871148
+        ]
+      },
+      "id": "node/2141203083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141204960",
+        "name": "Travancore",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.935503,
+          -37.7807553
+        ]
+      },
+      "id": "node/2141204960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141205888",
+        "name": "Ascot Vale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9137235,
+          -37.7769563
+        ]
+      },
+      "id": "node/2141205888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141206461",
+        "name": "Flemington",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9193668,
+          -37.7867587
+        ]
+      },
+      "id": "node/2141206461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141206946",
+        "name": "Kensington",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9270487,
+          -37.7943554
+        ]
+      },
+      "id": "node/2141206946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142270771",
+        "name": "Burnley",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0175294,
+          -37.8296132
+        ]
+      },
+      "id": "node/2142270771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142273216",
+        "name": "Princes Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9665675,
+          -37.7818041
+        ]
+      },
+      "id": "node/2142273216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142277290",
+        "name": "Carlton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9684343,
+          -37.8004228
+        ]
+      },
+      "id": "node/2142277290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142279103",
+        "alt_name": "East Brunswick",
+        "name": "Brunswick East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9776825,
+          -37.7688802
+        ]
+      },
+      "id": "node/2142279103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142282080",
+        "name": "Brunswick",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9613103,
+          -37.7664715
+        ]
+      },
+      "id": "node/2142282080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142282651",
+        "name": "Brunswick West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9425563,
+          -37.7633334
+        ]
+      },
+      "id": "node/2142282651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142287856",
+        "name": "Footscray",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.897345,
+          -37.7981339
+        ]
+      },
+      "id": "node/2142287856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142288777",
+        "name": "West Footscray",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8710808,
+          -37.8005584
+        ]
+      },
+      "id": "node/2142288777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142440417",
+        "name": "Blairgowrie",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7722682,
+          -38.3687445
+        ]
+      },
+      "id": "node/2142440417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142441340",
+        "name": "Rye",
+        "place": "suburb",
+        "wikipedia": "en:Rye, Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8099264,
+          -38.3821684
+        ]
+      },
+      "id": "node/2142441340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142445363",
+        "name": "Tootgarook",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8502239,
+          -38.3777277
+        ]
+      },
+      "id": "node/2142445363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142449270",
+        "name": "Capel Sound",
+        "old_name": "Rosebud West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8755654,
+          -38.3737241
+        ]
+      },
+      "id": "node/2142449270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2142451821",
+        "name": "Rosebud",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9095115,
+          -38.3710325
+        ]
+      },
+      "id": "node/2142451821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148444968",
+        "name": "Frankston",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1263742,
+          -38.1457064
+        ]
+      },
+      "id": "node/2148444968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148875993",
+        "name": "Cheltenham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0615668,
+          -37.9634181
+        ]
+      },
+      "id": "node/2148875993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148877318",
+        "name": "Sandringham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0139308,
+          -37.9533347
+        ]
+      },
+      "id": "node/2148877318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148885557",
+        "name": "Caulfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.02637,
+          -37.8840642
+        ]
+      },
+      "id": "node/2148885557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148888695",
+        "name": "Altona",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.813703,
+          -37.8602151
+        ]
+      },
+      "id": "node/2148888695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148890782",
+        "name": "Ringwood",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.230639,
+          -37.8113584
+        ]
+      },
+      "id": "node/2148890782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148891677",
+        "name": "Glen Waverley",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1681838,
+          -37.8816255
+        ]
+      },
+      "id": "node/2148891677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148894326",
+        "name": "Moonee Ponds",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9212864,
+          -37.765575
+        ]
+      },
+      "id": "node/2148894326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148895399",
+        "name": "Coburg",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9643314,
+          -37.7449752
+        ]
+      },
+      "id": "node/2148895399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148896889",
+        "name": "Nunawading",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1765591,
+          -37.8172638
+        ]
+      },
+      "id": "node/2148896889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2148901022",
+        "name": "Box Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1261267,
+          -37.8215116
+        ]
+      },
+      "id": "node/2148901022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2150261272",
+        "name": "Cranbourne North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2989039,
+          -38.0775184
+        ]
+      },
+      "id": "node/2150261272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154386883",
+        "name": "Wantirna South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2217475,
+          -37.8737902
+        ]
+      },
+      "id": "node/2154386883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154389626",
+        "name": "Ripponlea",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9952778,
+          -37.8777978
+        ]
+      },
+      "id": "node/2154389626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154406793",
+        "name": "Elsternwick",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0070152,
+          -37.8858425
+        ]
+      },
+      "id": "node/2154406793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154407397",
+        "name": "Gardenvale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0091824,
+          -37.8981194
+        ]
+      },
+      "id": "node/2154407397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154411577",
+        "name": "St Kilda East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0021657,
+          -37.8668218
+        ]
+      },
+      "id": "node/2154411577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154411635",
+        "name": "Balaclava",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9947414,
+          -37.8702943
+        ]
+      },
+      "id": "node/2154411635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154412285",
+        "name": "Windsor",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9921665,
+          -37.8545227
+        ]
+      },
+      "id": "node/2154412285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154412351",
+        "name": "Prahran",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0005993,
+          -37.8519135
+        ]
+      },
+      "id": "node/2154412351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154414077",
+        "name": "Caulfield North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0218005,
+          -37.870828
+        ]
+      },
+      "id": "node/2154414077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154414753",
+        "name": "Caulfield East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0420847,
+          -37.881276
+        ]
+      },
+      "id": "node/2154414753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154416801",
+        "name": "Caulfield South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0249323,
+          -37.894699
+        ]
+      },
+      "id": "node/2154416801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2154418016",
+        "name": "Glen Huntly",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0413689,
+          -37.8923791
+        ]
+      },
+      "id": "node/2154418016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2166884510",
+        "name": "Beaconsfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3831468,
+          -38.0403488
+        ]
+      },
+      "id": "node/2166884510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2166885522",
+        "name": "Berwick",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3481493,
+          -38.0403826
+        ]
+      },
+      "id": "node/2166885522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2207978609",
+        "name": "North Melbourne",
+        "name:fr": "Melbourne-Nord",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9451741,
+          -37.7985747
+        ]
+      },
+      "id": "node/2207978609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2235733358",
+        "name": "Essendon",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9109062,
+          -37.7498293
+        ]
+      },
+      "id": "node/2235733358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2256375529",
+        "name": "Vermont South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1878065,
+          -37.854386
+        ]
+      },
+      "id": "node/2256375529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2260849817",
+        "name": "Burwood East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.150423,
+          -37.8535935
+        ]
+      },
+      "id": "node/2260849817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2260852993",
+        "name": "Burwood",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1113915,
+          -37.849578
+        ]
+      },
+      "id": "node/2260852993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2272227482",
+        "name": "Middle Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9620399,
+          -37.8511511
+        ]
+      },
+      "id": "node/2272227482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2272227680",
+        "name": "St Kilda West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9712452,
+          -37.8579958
+        ]
+      },
+      "id": "node/2272227680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2272228006",
+        "name": "South Melbourne",
+        "name:fr": "Melbourne-Sud",
+        "old_name": "Emerald Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9570533,
+          -37.83344
+        ]
+      },
+      "id": "node/2272228006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2274622295",
+        "name": "Toorak",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0176215,
+          -37.8416141
+        ]
+      },
+      "id": "node/2274622295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2274624295",
+        "name": "South Yarra",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9918537,
+          -37.8377695
+        ]
+      },
+      "id": "node/2274624295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2425216801",
+        "name": "Eden Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.071621,
+          -37.4950097
+        ]
+      },
+      "id": "node/2425216801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578679044",
+        "name": "Brooklyn",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8414748,
+          -37.8160898
+        ]
+      },
+      "id": "node/2578679044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578679373",
+        "name": "Tottenham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8529354,
+          -37.8046977
+        ]
+      },
+      "id": "node/2578679373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578683688",
+        "name": "Braybrook",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8548451,
+          -37.7867076
+        ]
+      },
+      "id": "node/2578683688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578685777",
+        "name": "South Kingsville",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8713429,
+          -37.8306664
+        ]
+      },
+      "id": "node/2578685777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578687507",
+        "name": "Williamstown North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8688784,
+          -37.8526453
+        ]
+      },
+      "id": "node/2578687507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578699515",
+        "name": "Brookfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5405513,
+          -37.6993389
+        ]
+      },
+      "id": "node/2578699515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578700135",
+        "name": "Melton South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5717723,
+          -37.7060279
+        ]
+      },
+      "id": "node/2578700135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578701178",
+        "name": "Kurunjang",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5914403,
+          -37.6626777
+        ]
+      },
+      "id": "node/2578701178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578702064",
+        "name": "Melton West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5528895,
+          -37.6798651
+        ]
+      },
+      "id": "node/2578702064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578889769",
+        "name": "Broadmeadows",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9323037,
+          -37.6832769
+        ]
+      },
+      "id": "node/2578889769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578890230",
+        "name": "Gladstone Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8944658,
+          -37.6898311
+        ]
+      },
+      "id": "node/2578890230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578893437",
+        "name": "Tullamarine",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8717732,
+          -37.704658
+        ]
+      },
+      "id": "node/2578893437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578899072",
+        "name": "Melbourne Airport",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8365383,
+          -37.6764488
+        ]
+      },
+      "id": "node/2578899072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578899097",
+        "name": "Jacana",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9111681,
+          -37.6877427
+        ]
+      },
+      "id": "node/2578899097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578899105",
+        "name": "Glenroy",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9275403,
+          -37.7028199
+        ]
+      },
+      "id": "node/2578899105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578909409",
+        "name": "Gowanbrae",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8975976,
+          -37.7027183
+        ]
+      },
+      "id": "node/2578909409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578910093",
+        "name": "Hadfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9502764,
+          -37.7101582
+        ]
+      },
+      "id": "node/2578910093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578926443",
+        "name": "Attwood",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.884862,
+          -37.6670148
+        ]
+      },
+      "id": "node/2578926443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578928764",
+        "name": "Dallas",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9354163,
+          -37.6708194
+        ]
+      },
+      "id": "node/2578928764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578932434",
+        "name": "Campbellfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.959583,
+          -37.6641298
+        ]
+      },
+      "id": "node/2578932434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578933702",
+        "name": "Somerton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9507961,
+          -37.634688
+        ]
+      },
+      "id": "node/2578933702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578957525",
+        "name": "Fawkner",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9696144,
+          -37.7052065
+        ]
+      },
+      "id": "node/2578957525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578960589",
+        "name": "Meadow Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9185521,
+          -37.6511668
+        ]
+      },
+      "id": "node/2578960589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578962346",
+        "name": "Roxburgh Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9255725,
+          -37.6258153
+        ]
+      },
+      "id": "node/2578962346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578965532",
+        "name": "Coolaroo",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9345853,
+          -37.6567594
+        ]
+      },
+      "id": "node/2578965532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578986258",
+        "name": "Taylors Lakes",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7863077,
+          -37.698633
+        ]
+      },
+      "id": "node/2578986258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578986276",
+        "name": "Keilor Lodge",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7998157,
+          -37.6984134
+        ]
+      },
+      "id": "node/2578986276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578986395",
+        "name": "Keilor North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7930224,
+          -37.6816313
+        ]
+      },
+      "id": "node/2578986395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578986411",
+        "name": "Calder Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7611396,
+          -37.6762639
+        ]
+      },
+      "id": "node/2578986411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578988007",
+        "name": "Caroline Springs",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7370017,
+          -37.7340623
+        ]
+      },
+      "id": "node/2578988007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578988186",
+        "name": "Sydenham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7653295,
+          -37.6997223
+        ]
+      },
+      "id": "node/2578988186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578988196",
+        "name": "Hillside",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7417358,
+          -37.6904862
+        ]
+      },
+      "id": "node/2578988196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2578988235",
+        "name": "Delahey",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7773228,
+          -37.7198138
+        ]
+      },
+      "id": "node/2578988235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2579252818",
+        "name": "Wattle Glen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1813531,
+          -37.6659556
+        ]
+      },
+      "id": "node/2579252818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2579258627",
+        "name": "Hurstbridge",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1943394,
+          -37.6375848
+        ]
+      },
+      "id": "node/2579258627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2579311080",
+        "name": "Wonga Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2669658,
+          -37.7390001
+        ]
+      },
+      "id": "node/2579311080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2582850956",
+        "name": "Pakenham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4833359,
+          -38.079153
+        ]
+      },
+      "id": "node/2582850956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2582852132",
+        "name": "Officer",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4099219,
+          -38.0601977
+        ]
+      },
+      "id": "node/2582852132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586286193",
+        "name": "Maidstone",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8741606,
+          -37.7819337
+        ]
+      },
+      "id": "node/2586286193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586286707",
+        "name": "Sunshine",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8342699,
+          -37.7893319
+        ]
+      },
+      "id": "node/2586286707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586287914",
+        "name": "Sunshine West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8110919,
+          -37.7983442
+        ]
+      },
+      "id": "node/2586287914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586297232",
+        "name": "Albion",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8160713,
+          -37.7763803
+        ]
+      },
+      "id": "node/2586297232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586297397",
+        "name": "Ardeer",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8014637,
+          -37.7758681
+        ]
+      },
+      "id": "node/2586297397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586487551",
+        "name": "Laverton North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7869487,
+          -37.8300705
+        ]
+      },
+      "id": "node/2586487551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586494546",
+        "name": "Deer Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7713077,
+          -37.7686602
+        ]
+      },
+      "id": "node/2586494546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2586504789",
+        "name": "Ravenhall",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7366326,
+          -37.7754956
+        ]
+      },
+      "id": "node/2586504789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2587398666",
+        "name": "Kealba",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8282988,
+          -37.7371074
+        ]
+      },
+      "id": "node/2587398666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2587398968",
+        "name": "Keilor",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8250696,
+          -37.7113545
+        ]
+      },
+      "id": "node/2587398968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2587399297",
+        "name": "Keilor Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8501721,
+          -37.7187247
+        ]
+      },
+      "id": "node/2587399297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2587406538",
+        "name": "Niddrie",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8847881,
+          -37.7397699
+        ]
+      },
+      "id": "node/2587406538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2587455891",
+        "name": "Aberfeldie",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8974571,
+          -37.7596196
+        ]
+      },
+      "id": "node/2587455891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2587463799",
+        "name": "Airport West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8834942,
+          -37.7222576
+        ]
+      },
+      "id": "node/2587463799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2587474997",
+        "name": "Essendon North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9012027,
+          -37.7384762
+        ]
+      },
+      "id": "node/2587474997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588513600",
+        "name": "Williamstown",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8898569,
+          -37.8611788
+        ]
+      },
+      "id": "node/2588513600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588525785",
+        "name": "Seaholme",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8442324,
+          -37.8641585
+        ]
+      },
+      "id": "node/2588525785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588558933",
+        "name": "Altona North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8342853,
+          -37.8378229
+        ]
+      },
+      "id": "node/2588558933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588606626",
+        "name": "Strathmore Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8969057,
+          -37.7133663
+        ]
+      },
+      "id": "node/2588606626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588607600",
+        "name": "Doncaster",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1238431,
+          -37.7848299
+        ]
+      },
+      "id": "node/2588607600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588608012",
+        "name": "Donvale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1914915,
+          -37.7898094
+        ]
+      },
+      "id": "node/2588608012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588608583",
+        "name": "Doncaster East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1638815,
+          -37.7788744
+        ]
+      },
+      "id": "node/2588608583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588608860",
+        "name": "Templestowe",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1486152,
+          -37.7540588
+        ]
+      },
+      "id": "node/2588608860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588608861",
+        "name": "Bulleen",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0871992,
+          -37.7688992
+        ]
+      },
+      "id": "node/2588608861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588608889",
+        "alt_name": "North Balwyn",
+        "name": "Balwyn North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0842372,
+          -37.7919518
+        ]
+      },
+      "id": "node/2588608889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588617225",
+        "name": "Mernda",
+        "place": "suburb",
+        "population": "23369"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0819562,
+          -37.5921097
+        ]
+      },
+      "id": "node/2588617225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588620405",
+        "name": "South Morang",
+        "place": "suburb",
+        "population": "24989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0836353,
+          -37.6316767
+        ]
+      },
+      "id": "node/2588620405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2588662648",
+        "name": "Wollert",
+        "place": "suburb",
+        "population": "24407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0337333,
+          -37.5939889
+        ]
+      },
+      "id": "node/2588662648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2589740407",
+        "name": "Pascoe Vale South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9384767,
+          -37.7434265
+        ]
+      },
+      "id": "node/2589740407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2589740546",
+        "name": "Pascoe Vale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9379604,
+          -37.7250777
+        ]
+      },
+      "id": "node/2589740546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592175663",
+        "name": "Westmeadows",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8939017,
+          -37.6768765
+        ]
+      },
+      "id": "node/2592175663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592178023",
+        "name": "Ivanhoe East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0617815,
+          -37.7733903
+        ]
+      },
+      "id": "node/2592178023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592178651",
+        "name": "Ivanhoe",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0430809,
+          -37.7690312
+        ]
+      },
+      "id": "node/2592178651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592345108",
+        "name": "Epping",
+        "place": "suburb",
+        "population": "33489"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0266224,
+          -37.639111
+        ]
+      },
+      "id": "node/2592345108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592346439",
+        "name": "Lalor",
+        "place": "suburb",
+        "population": "23219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.003955,
+          -37.662922
+        ]
+      },
+      "id": "node/2592346439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592347328",
+        "name": "Thomastown",
+        "place": "suburb",
+        "population": "20234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0081104,
+          -37.6832672
+        ]
+      },
+      "id": "node/2592347328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592347767",
+        "name": "Mill Park",
+        "place": "suburb",
+        "population": "28712",
+        "source": "2021 census"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0642681,
+          -37.6641334
+        ]
+      },
+      "id": "node/2592347767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592350763",
+        "name": "Bundoora",
+        "place": "suburb",
+        "population": "28068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0596757,
+          -37.6982468
+        ]
+      },
+      "id": "node/2592350763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592351056",
+        "name": "Yallambie",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0935218,
+          -37.7251655
+        ]
+      },
+      "id": "node/2592351056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592353072",
+        "name": "Lower Plenty",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.116224,
+          -37.7388437
+        ]
+      },
+      "id": "node/2592353072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592353793",
+        "name": "Kingsville",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8794356,
+          -37.8088622
+        ]
+      },
+      "id": "node/2592353793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592353794",
+        "name": "Seddon",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8915967,
+          -37.8067725
+        ]
+      },
+      "id": "node/2592353794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592353803",
+        "name": "Yarraville",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8819389,
+          -37.8180051
+        ]
+      },
+      "id": "node/2592353803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592354305",
+        "name": "Spotswood",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.887901,
+          -37.8296363
+        ]
+      },
+      "id": "node/2592354305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592355035",
+        "name": "Newport",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8804797,
+          -37.8435966
+        ]
+      },
+      "id": "node/2592355035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592602333",
+        "name": "Research",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.189067,
+          -37.7066557
+        ]
+      },
+      "id": "node/2592602333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592602334",
+        "name": "North Warrandyte",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2087814,
+          -37.7236286
+        ]
+      },
+      "id": "node/2592602334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592604826",
+        "name": "Warrandyte",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2237227,
+          -37.7377865
+        ]
+      },
+      "id": "node/2592604826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592607091",
+        "name": "Warranwood",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2505908,
+          -37.7730016
+        ]
+      },
+      "id": "node/2592607091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592608016",
+        "name": "Ringwood North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2331186,
+          -37.7950927
+        ]
+      },
+      "id": "node/2592608016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592608680",
+        "name": "Park Orchards",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2140351,
+          -37.7778362
+        ]
+      },
+      "id": "node/2592608680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592634624",
+        "name": "Croydon North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2857882,
+          -37.7737415
+        ]
+      },
+      "id": "node/2592634624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592634630",
+        "name": "Croydon Hills",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2661042,
+          -37.7743527
+        ]
+      },
+      "id": "node/2592634630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592636996",
+        "name": "Croydon",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2814663,
+          -37.7913501
+        ]
+      },
+      "id": "node/2592636996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2592650968",
+        "name": "Ringwood East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2525895,
+          -37.8122942
+        ]
+      },
+      "id": "node/2592650968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593697105",
+        "name": "Plenty",
+        "place": "suburb",
+        "population": "2575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1123773,
+          -37.6674499
+        ]
+      },
+      "id": "node/2593697105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593697106",
+        "name": "Yarrambat",
+        "place": "suburb",
+        "population": "1602"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1349293,
+          -37.6375473
+        ]
+      },
+      "id": "node/2593697106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593697250",
+        "name": "Diamond Creek",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1587044,
+          -37.6669718
+        ]
+      },
+      "id": "node/2593697250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593707735",
+        "name": "Oakleigh East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.10567,
+          -37.8996435
+        ]
+      },
+      "id": "node/2593707735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593707736",
+        "name": "Huntingdale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1084736,
+          -37.9076585
+        ]
+      },
+      "id": "node/2593707736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593707737",
+        "name": "Hughesdale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0811583,
+          -37.8995028
+        ]
+      },
+      "id": "node/2593707737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593707738",
+        "name": "Notting Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1455616,
+          -37.905582
+        ]
+      },
+      "id": "node/2593707738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593707969",
+        "name": "Oakleigh",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0956739,
+          -37.9007001
+        ]
+      },
+      "id": "node/2593707969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593709371",
+        "name": "Murrumbeena",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0703808,
+          -37.8968653
+        ]
+      },
+      "id": "node/2593709371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2593711289",
+        "name": "Carnegie",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0559135,
+          -37.8933729
+        ]
+      },
+      "id": "node/2593711289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594688910",
+        "name": "Malvern East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0658739,
+          -37.876835
+        ]
+      },
+      "id": "node/2594688910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594692197",
+        "name": "Chadstone",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1001365,
+          -37.8822799
+        ]
+      },
+      "id": "node/2594692197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594692629",
+        "name": "Ashburton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0806524,
+          -37.8673582
+        ]
+      },
+      "id": "node/2594692629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594693723",
+        "name": "Glen Iris",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0646117,
+          -37.855814
+        ]
+      },
+      "id": "node/2594693723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594694452",
+        "name": "Kooyong",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0358402,
+          -37.841394
+        ]
+      },
+      "id": "node/2594694452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594694487",
+        "name": "Armadale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0206905,
+          -37.8567619
+        ]
+      },
+      "id": "node/2594694487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596020446",
+        "name": "Ashwood",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1022346,
+          -37.866672
+        ]
+      },
+      "id": "node/2596020446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596020447",
+        "name": "Mount Waverley",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1284919,
+          -37.8783923
+        ]
+      },
+      "id": "node/2596020447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596027582",
+        "alt_name": "East Bentleigh",
+        "name": "Bentleigh East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0665529,
+          -37.9220201
+        ]
+      },
+      "id": "node/2596027582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596028605",
+        "name": "Clarinda",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1060206,
+          -37.9431093
+        ]
+      },
+      "id": "node/2596028605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596028895",
+        "name": "Clayton South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1245064,
+          -37.9320359
+        ]
+      },
+      "id": "node/2596028895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596029212",
+        "name": "Clayton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1268559,
+          -37.9142211
+        ]
+      },
+      "id": "node/2596029212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596029339",
+        "name": "Heatherton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0932067,
+          -37.9560844
+        ]
+      },
+      "id": "node/2596029339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596034906",
+        "name": "Moorabbin Airport",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0995297,
+          -37.9774618
+        ]
+      },
+      "id": "node/2596034906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596059398",
+        "name": "Moorabbin",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0578383,
+          -37.9414646
+        ]
+      },
+      "id": "node/2596059398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596103860",
+        "name": "Brighton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9957991,
+          -37.9081962
+        ]
+      },
+      "id": "node/2596103860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596105026",
+        "name": "Elwood",
+        "place": "suburb",
+        "population": "15153",
+        "population:date": "10 August 2021",
+        "source:population": "Australian Bureau of Statistics (2021) 'Elwood', 2021 Census All persons QuickStats, accessed 1 May 2024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9855487,
+          -37.8788568
+        ]
+      },
+      "id": "node/2596105026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596107027",
+        "alt_name": "East Brighton",
+        "name": "Brighton East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0163663,
+          -37.9171728
+        ]
+      },
+      "id": "node/2596107027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596107790",
+        "name": "Hampton East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0306726,
+          -37.9385409
+        ]
+      },
+      "id": "node/2596107790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596108299",
+        "name": "Highett",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.039797,
+          -37.9504036
+        ]
+      },
+      "id": "node/2596108299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596232930",
+        "name": "Dingley Village",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1256478,
+          -37.9755762
+        ]
+      },
+      "id": "node/2596232930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596233685",
+        "name": "Braeside",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1229578,
+          -38.0005245
+        ]
+      },
+      "id": "node/2596233685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596234274",
+        "name": "Beaumaris",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0389098,
+          -37.9822122
+        ]
+      },
+      "id": "node/2596234274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596261687",
+        "name": "Mentone",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0689511,
+          -37.9813669
+        ]
+      },
+      "id": "node/2596261687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596261690",
+        "name": "Parkdale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.081286,
+          -37.9918673
+        ]
+      },
+      "id": "node/2596261690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596261754",
+        "name": "Mordialloc",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0960708,
+          -37.9993584
+        ]
+      },
+      "id": "node/2596261754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596261999",
+        "name": "Aspendale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1024159,
+          -38.0219105
+        ]
+      },
+      "id": "node/2596261999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596262368",
+        "name": "Aspendale Gardens",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.11984,
+          -38.0221438
+        ]
+      },
+      "id": "node/2596262368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596264025",
+        "name": "Edithvale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1149321,
+          -38.0375588
+        ]
+      },
+      "id": "node/2596264025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596264059",
+        "name": "Chelsea",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.121407,
+          -38.0497386
+        ]
+      },
+      "id": "node/2596264059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596264101",
+        "name": "Bonbeach",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1276225,
+          -38.0630635
+        ]
+      },
+      "id": "node/2596264101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596264198",
+        "name": "Patterson Lakes",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1432329,
+          -38.0694493
+        ]
+      },
+      "id": "node/2596264198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596264205",
+        "name": "Carrum",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1280098,
+          -38.0767264
+        ]
+      },
+      "id": "node/2596264205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596265182",
+        "name": "Waterways",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1305166,
+          -38.0147783
+        ]
+      },
+      "id": "node/2596265182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596265374",
+        "name": "Keysborough",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1674069,
+          -38.0053607
+        ]
+      },
+      "id": "node/2596265374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596278837",
+        "name": "Springvale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1580111,
+          -37.9456253
+        ]
+      },
+      "id": "node/2596278837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596278936",
+        "name": "Noble Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.176703,
+          -37.9695376
+        ]
+      },
+      "id": "node/2596278936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596278947",
+        "name": "Dandenong North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2143234,
+          -37.9558319
+        ]
+      },
+      "id": "node/2596278947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596279255",
+        "name": "Noble Park North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1908377,
+          -37.9512702
+        ]
+      },
+      "id": "node/2596279255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596280205",
+        "name": "Hampton Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2590312,
+          -38.0367368
+        ]
+      },
+      "id": "node/2596280205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596315125",
+        "name": "Eumemmerring",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2469497,
+          -37.9985273
+        ]
+      },
+      "id": "node/2596315125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596317176",
+        "name": "Hallam",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.268858,
+          -38.0074845
+        ]
+      },
+      "id": "node/2596317176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2596319626",
+        "name": "Endeavour Hills",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2563443,
+          -37.9702665
+        ]
+      },
+      "id": "node/2596319626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597485150",
+        "name": "Dandenong South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2209236,
+          -38.0279936
+        ]
+      },
+      "id": "node/2597485150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597485151",
+        "name": "Lyndhurst",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2307493,
+          -38.0685384
+        ]
+      },
+      "id": "node/2597485151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597485152",
+        "name": "Bangholme",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1720859,
+          -38.0483919
+        ]
+      },
+      "id": "node/2597485152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597486560",
+        "name": "Lynbrook",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2561128,
+          -38.0558639
+        ]
+      },
+      "id": "node/2597486560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597540123",
+        "name": "Narre Warren",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3058481,
+          -38.017956
+        ]
+      },
+      "id": "node/2597540123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597598038",
+        "name": "Hawthorn",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0317207,
+          -37.8244246
+        ]
+      },
+      "id": "node/2597598038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597776629",
+        "name": "Albert Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.957105,
+          -37.8452062
+        ]
+      },
+      "id": "node/2597776629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597852503",
+        "name": "Box Hill South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1233644,
+          -37.8366236
+        ]
+      },
+      "id": "node/2597852503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597853301",
+        "name": "Blackburn",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.152276,
+          -37.8217009
+        ]
+      },
+      "id": "node/2597853301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597853424",
+        "name": "Mitcham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1976295,
+          -37.8175796
+        ]
+      },
+      "id": "node/2597853424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597853551",
+        "name": "Vermont",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.19836,
+          -37.8379913
+        ]
+      },
+      "id": "node/2597853551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597853866",
+        "name": "Wantirna",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2259721,
+          -37.8523357
+        ]
+      },
+      "id": "node/2597853866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597854448",
+        "name": "Bayswater",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2647667,
+          -37.8454443
+        ]
+      },
+      "id": "node/2597854448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597855363",
+        "name": "Boronia",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2859658,
+          -37.8563043
+        ]
+      },
+      "id": "node/2597855363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597855514",
+        "name": "The Basin",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3214075,
+          -37.8556937
+        ]
+      },
+      "id": "node/2597855514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597859147",
+        "name": "Belgrave Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.352827,
+          -37.9258631
+        ]
+      },
+      "id": "node/2597859147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597859148",
+        "name": "Belgrave South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3573383,
+          -37.9424023
+        ]
+      },
+      "id": "node/2597859148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597859221",
+        "name": "Selby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3784097,
+          -37.9187608
+        ]
+      },
+      "id": "node/2597859221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597859388",
+        "name": "Clematis",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.417641,
+          -37.9340691
+        ]
+      },
+      "id": "node/2597859388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597859457",
+        "name": "Emerald",
+        "place": "suburb",
+        "population": "5890",
+        "population:date": "2021",
+        "source:population": "wikipedia",
+        "wikidata": "Q5370390",
+        "wikipedia": "en:Emerald, Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4407282,
+          -37.9321282
+        ]
+      },
+      "id": "node/2597859457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597859462",
+        "name": "Cockatoo",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4932503,
+          -37.9359421
+        ]
+      },
+      "id": "node/2597859462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2597860262",
+        "name": "Narre Warren North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3129016,
+          -37.9813391
+        ]
+      },
+      "id": "node/2597860262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602195979",
+        "name": "Viewbank",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0932329,
+          -37.7399103
+        ]
+      },
+      "id": "node/2602195979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602310264",
+        "name": "Eltham North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1417807,
+          -37.6978921
+        ]
+      },
+      "id": "node/2602310264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602311176",
+        "name": "St Helena",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1295774,
+          -37.6895135
+        ]
+      },
+      "id": "node/2602311176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602312351",
+        "name": "Eltham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1601523,
+          -37.7175064
+        ]
+      },
+      "id": "node/2602312351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602385548",
+        "alt_name": "North Blackburn",
+        "name": "Blackburn North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.154324,
+          -37.8053801
+        ]
+      },
+      "id": "node/2602385548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602416690",
+        "name": "Templestowe Lower",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1122762,
+          -37.7638749
+        ]
+      },
+      "id": "node/2602416690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602419786",
+        "name": "Mooroolbark",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3256732,
+          -37.7813447
+        ]
+      },
+      "id": "node/2602419786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602420726",
+        "name": "Chirnside Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3143181,
+          -37.7385835
+        ]
+      },
+      "id": "node/2602420726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602422396",
+        "name": "Kilsyth",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3134593,
+          -37.8037844
+        ]
+      },
+      "id": "node/2602422396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602422404",
+        "name": "Kilsyth South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3110008,
+          -37.8315054
+        ]
+      },
+      "id": "node/2602422404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602422504",
+        "name": "Croydon South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2780722,
+          -37.8155329
+        ]
+      },
+      "id": "node/2602422504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602423224",
+        "name": "Montrose",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3421513,
+          -37.8106247
+        ]
+      },
+      "id": "node/2602423224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2602423290",
+        "name": "Mount Evelyn",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3883037,
+          -37.7873186
+        ]
+      },
+      "id": "node/2602423290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603795377",
+        "name": "Upper Ferntree Gully",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3098678,
+          -37.8966783
+        ]
+      },
+      "id": "node/2603795377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603796882",
+        "name": "Upwey",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3279903,
+          -37.9052161
+        ]
+      },
+      "id": "node/2603796882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603797837",
+        "name": "Tremont",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3157699,
+          -37.8788598
+        ]
+      },
+      "id": "node/2603797837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603797843",
+        "name": "Ferny Creek",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3350823,
+          -37.8752857
+        ]
+      },
+      "id": "node/2603797843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603797931",
+        "name": "Sassafras",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3568039,
+          -37.8678412
+        ]
+      },
+      "id": "node/2603797931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603798538",
+        "name": "Olinda",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3649097,
+          -37.8553249
+        ]
+      },
+      "id": "node/2603798538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603798683",
+        "name": "Mount Dandenong",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3509803,
+          -37.8361703
+        ]
+      },
+      "id": "node/2603798683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603799182",
+        "name": "Monbulk",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4286024,
+          -37.8741771
+        ]
+      },
+      "id": "node/2603799182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603801815",
+        "name": "Belgrave",
+        "place": "suburb",
+        "wikidata": "Q815564",
+        "wikipedia": "en:Belgrave, Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3552263,
+          -37.912056
+        ]
+      },
+      "id": "node/2603801815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603801816",
+        "name": "Tecoma",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3446796,
+          -37.9030367
+        ]
+      },
+      "id": "node/2603801816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603826639",
+        "name": "Sherbrooke",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3593565,
+          -37.8884448
+        ]
+      },
+      "id": "node/2603826639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603827758",
+        "name": "The Patch",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3912949,
+          -37.8901143
+        ]
+      },
+      "id": "node/2603827758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603827759",
+        "name": "Menzies Creek",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4068204,
+          -37.9190646
+        ]
+      },
+      "id": "node/2603827759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603833526",
+        "name": "Kallista",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3729123,
+          -37.8858076
+        ]
+      },
+      "id": "node/2603833526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605266900",
+        "name": "Kalorama",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3681744,
+          -37.8156015
+        ]
+      },
+      "id": "node/2605266900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605277020",
+        "name": "Rowville",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2447672,
+          -37.9239267
+        ]
+      },
+      "id": "node/2605277020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605310345",
+        "name": "Narre Warren East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.361856,
+          -37.9627116
+        ]
+      },
+      "id": "node/2605310345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605477453",
+        "name": "Lysterfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3017588,
+          -37.9348771
+        ]
+      },
+      "id": "node/2605477453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605661801",
+        "name": "Lysterfield South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2669275,
+          -37.9524844
+        ]
+      },
+      "id": "node/2605661801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605735841",
+        "name": "Springvale South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1478692,
+          -37.9708611
+        ]
+      },
+      "id": "node/2605735841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605736537",
+        "name": "Seaford",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1384475,
+          -38.1048309
+        ]
+      },
+      "id": "node/2605736537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605751995",
+        "name": "Carrum Downs",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1788657,
+          -38.1003312
+        ]
+      },
+      "id": "node/2605751995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605752344",
+        "name": "Skye",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2162331,
+          -38.1051265
+        ]
+      },
+      "id": "node/2605752344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2605755631",
+        "name": "Cranbourne West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2517182,
+          -38.102241
+        ]
+      },
+      "id": "node/2605755631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607120763",
+        "name": "Botanic Ridge",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2566183,
+          -38.1413786
+        ]
+      },
+      "id": "node/2607120763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607120995",
+        "name": "Junction Village",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2968697,
+          -38.1363443
+        ]
+      },
+      "id": "node/2607120995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607363031",
+        "name": "Cranbourne East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3056221,
+          -38.1080912
+        ]
+      },
+      "id": "node/2607363031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607372790",
+        "name": "Clyde",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3290375,
+          -38.1326345
+        ]
+      },
+      "id": "node/2607372790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607380867",
+        "name": "Langwarrin",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1973931,
+          -38.1545829
+        ]
+      },
+      "id": "node/2607380867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607381207",
+        "name": "Frankston South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1295641,
+          -38.1765027
+        ]
+      },
+      "id": "node/2607381207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607383896",
+        "name": "Baxter",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1568582,
+          -38.2010079
+        ]
+      },
+      "id": "node/2607383896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607392102",
+        "name": "Tyabb",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1871641,
+          -38.2637008
+        ]
+      },
+      "id": "node/2607392102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607398296",
+        "name": "Bittern",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1773289,
+          -38.3375798
+        ]
+      },
+      "id": "node/2607398296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607398298",
+        "name": "Crib Point",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2029503,
+          -38.3523582
+        ]
+      },
+      "id": "node/2607398298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607398696",
+        "name": "Somers",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1726499,
+          -38.3923474
+        ]
+      },
+      "id": "node/2607398696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607414901",
+        "name": "Frankston North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1609788,
+          -38.1228524
+        ]
+      },
+      "id": "node/2607414901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607419375",
+        "name": "Mount Martha",
+        "name:en": "Mount Martha",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0307737,
+          -38.2754676
+        ]
+      },
+      "id": "node/2607419375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607427924",
+        "name": "Portsea",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7004208,
+          -38.3228212
+        ]
+      },
+      "id": "node/2607427924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2607452563",
+        "name": "Sorrento",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7420938,
+          -38.3447273
+        ]
+      },
+      "id": "node/2607452563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2608567562",
+        "name": "Dromana",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9655838,
+          -38.3418285
+        ]
+      },
+      "id": "node/2608567562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2608568063",
+        "name": "Safety Beach",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.000282,
+          -38.3153642
+        ]
+      },
+      "id": "node/2608568063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2608571302",
+        "name": "McCrae",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9338501,
+          -38.3599791
+        ]
+      },
+      "id": "node/2608571302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2608579079",
+        "name": "St Andrews Beach",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.83117,
+          -38.4199773
+        ]
+      },
+      "id": "node/2608579079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2608582330",
+        "name": "Cranbourne",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2834004,
+          -38.1087442
+        ]
+      },
+      "id": "node/2608582330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2612118977",
+        "name": "Truganina",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.721139,
+          -37.8089015
+        ]
+      },
+      "id": "node/2612118977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2612970569",
+        "name": "Devon Meadows",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3024933,
+          -38.1620178
+        ]
+      },
+      "id": "node/2612970569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616796219",
+        "name": "Scoresby",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2183066,
+          -37.9025786
+        ]
+      },
+      "id": "node/2616796219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616796698",
+        "name": "Knoxfield",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2496342,
+          -37.8897731
+        ]
+      },
+      "id": "node/2616796698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616797828",
+        "name": "Ferntree Gully",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2817304,
+          -37.8840562
+        ]
+      },
+      "id": "node/2616797828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2618155080",
+        "name": "Pearcedale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.242198,
+          -38.2015815
+        ]
+      },
+      "id": "node/2618155080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2618155098",
+        "name": "Langwarrin South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1910633,
+          -38.1891024
+        ]
+      },
+      "id": "node/2618155098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2646892038",
+        "name": "Wandin North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4262934,
+          -37.7806025
+        ]
+      },
+      "id": "node/2646892038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2672776328",
+        "name": "Preston",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0078205,
+          -37.7418658
+        ]
+      },
+      "id": "node/2672776328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2678009073",
+        "name": "Werribee",
+        "place": "suburb",
+        "population": "50027",
+        "population:date": "2021",
+        "source:population": "wikipedia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6620327,
+          -37.9009284
+        ]
+      },
+      "id": "node/2678009073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2713400672",
+        "name": "Diggers Rest",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.720969,
+          -37.6280256
+        ]
+      },
+      "id": "node/2713400672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2715193615",
+        "name": "Kalkallo",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9496539,
+          -37.5309523
+        ]
+      },
+      "id": "node/2715193615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2718789452",
+        "name": "Warrandyte South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2373106,
+          -37.7648724
+        ]
+      },
+      "id": "node/2718789452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2755530842",
+        "name": "Rockbank",
+        "place": "suburb",
+        "population": "822"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6607316,
+          -37.7312767
+        ]
+      },
+      "id": "node/2755530842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2778536805",
+        "name": "Yuroke",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8789803,
+          -37.5894631
+        ]
+      },
+      "id": "node/2778536805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3093246949",
+        "name": "Clyde North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3302814,
+          -38.1028681
+        ]
+      },
+      "id": "node/3093246949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3127112497",
+        "name": "Yering",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3746571,
+          -37.6887134
+        ]
+      },
+      "id": "node/3127112497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171091551",
+        "name": "Wyndham Vale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.624117,
+          -37.8868742
+        ]
+      },
+      "id": "node/3171091551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3509371207",
+        "name": "Aintree",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6694023,
+          -37.7193933
+        ]
+      },
+      "id": "node/3509371207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3640105001",
+        "name": "Eynesbury",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5561657,
+          -37.7908381
+        ]
+      },
+      "id": "node/3640105001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4088009963",
+        "name": "Williams Landing",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7445428,
+          -37.8614297
+        ]
+      },
+      "id": "node/4088009963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4210458157",
+        "name": "Christmas Hills",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3206126,
+          -37.6528089
+        ]
+      },
+      "id": "node/4210458157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587730908",
+        "name": "Plumpton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6993618,
+          -37.6727808
+        ]
+      },
+      "id": "node/4587730908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4683276540",
+        "name": "Eaglemont",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0634761,
+          -37.7647877
+        ]
+      },
+      "id": "node/4683276540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753848405",
+        "name": "Greenvale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8810975,
+          -37.6377329
+        ]
+      },
+      "id": "node/4753848405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920490972",
+        "name": "Deanside",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.704081,
+          -37.729087
+        ]
+      },
+      "id": "node/4920490972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920504821",
+        "name": "Fraser Rise",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7174013,
+          -37.7059863
+        ]
+      },
+      "id": "node/4920504821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920543146",
+        "name": "Grangefields",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6351268,
+          -37.7000297
+        ]
+      },
+      "id": "node/4920543146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920543148",
+        "name": "Thornhill Park",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6259215,
+          -37.7274099
+        ]
+      },
+      "id": "node/4920543148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920560787",
+        "name": "Fieldstone",
+        "name:zh": "菲尔斯顿",
+        "place": "suburb",
+        "wikidata": "Q28942245"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6482563,
+          -37.7498668
+        ]
+      },
+      "id": "node/4920560787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920563331",
+        "name": "Mount Cottrell",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6243883,
+          -37.7858441
+        ]
+      },
+      "id": "node/4920563331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5128805491",
+        "name": "Manor Lakes",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5950127,
+          -37.8686285
+        ]
+      },
+      "id": "node/5128805491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5168642456",
+        "name": "Harkness",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5525264,
+          -37.6567808
+        ]
+      },
+      "id": "node/5168642456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5168642504",
+        "name": "Cobblebank",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6025657,
+          -37.7063004
+        ]
+      },
+      "id": "node/5168642504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5168642505",
+        "name": "Strathtulloh",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5975017,
+          -37.7324394
+        ]
+      },
+      "id": "node/5168642505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5168642506",
+        "name": "Weir Views",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.5708942,
+          -37.7323715
+        ]
+      },
+      "id": "node/5168642506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5603355821",
+        "name": "Somerville",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1736692,
+          -38.2254039
+        ]
+      },
+      "id": "node/5603355821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5603356746",
+        "name": "Mornington",
+        "place": "suburb",
+        "population": "25852",
+        "population:date": "2023 June 30",
+        "source:population": "wikipedia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0411089,
+          -38.2202151
+        ]
+      },
+      "id": "node/5603356746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5704950554",
+        "name": "Coburg North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9675198,
+          -37.7243476
+        ]
+      },
+      "id": "node/5704950554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5704950559",
+        "name": "Harkaway",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3416887,
+          -38.0002695
+        ]
+      },
+      "id": "node/5704950559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5863365590",
+        "name": "Doreen",
+        "place": "suburb",
+        "population": "27122"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1428928,
+          -37.5963874
+        ]
+      },
+      "id": "node/5863365590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6510282377",
+        "name": "Mount Eliza",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0892789,
+          -38.1837759
+        ]
+      },
+      "id": "node/6510282377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6544211327",
+        "name": "Chelsea Heights",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.132786,
+          -38.0395381
+        ]
+      },
+      "id": "node/6544211327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8625381904",
+        "name": "Melbourne",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9655616,
+          -37.8141705
+        ]
+      },
+      "id": "node/8625381904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9222893621",
+        "name": "Gruyere",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4502423,
+          -37.7342172
+        ]
+      },
+      "id": "node/9222893621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9273798933",
+        "name": "West Melbourne",
+        "name:fr": "Melbourne-Ouest",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9238207,
+          -37.808747
+        ]
+      },
+      "id": "node/9273798933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9274651145",
+        "name": "Guys Hill",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3925275,
+          -38.0140705
+        ]
+      },
+      "id": "node/9274651145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9274651146",
+        "name": "Cranbourne South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2624214,
+          -38.1577683
+        ]
+      },
+      "id": "node/9274651146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9274651147",
+        "name": "Black Rock",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0212822,
+          -37.9706564
+        ]
+      },
+      "id": "node/9274651147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9274651148",
+        "name": "Hampton",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0086789,
+          -37.937671
+        ]
+      },
+      "id": "node/9274651148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9282839790",
+        "name": "HMAS Cerberus",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1944475,
+          -38.3827748
+        ]
+      },
+      "id": "node/9282839790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9285375681",
+        "name": "Officer South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4218003,
+          -38.0978456
+        ]
+      },
+      "id": "node/9285375681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9285375684",
+        "name": "Avonsleigh",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4688212,
+          -37.9208356
+        ]
+      },
+      "id": "node/9285375684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9285557098",
+        "name": "Beaconsfield Upper",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4247844,
+          -37.998526
+        ]
+      },
+      "id": "node/9285557098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289463914",
+        "name": "Keilor East",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8591851,
+          -37.739339
+        ]
+      },
+      "id": "node/9289463914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9289858100",
+        "name": "Bayswater North",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2819271,
+          -37.8260474
+        ]
+      },
+      "id": "node/9289858100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9293035562",
+        "name": "Bend of Islands",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.2806678,
+          -37.6979995
+        ]
+      },
+      "id": "node/9293035562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9297581847",
+        "name": "Seabrook",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.7578334,
+          -37.8806797
+        ]
+      },
+      "id": "node/9297581847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9297581849",
+        "name": "Bonnie Brook",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.6710866,
+          -37.6947562
+        ]
+      },
+      "id": "node/9297581849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9299891375",
+        "name": "Essendon West",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.8845846,
+          -37.7528304
+        ]
+      },
+      "id": "node/9299891375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9304234293",
+        "name": "Boneo",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9005697,
+          -38.4062537
+        ]
+      },
+      "id": "node/9304234293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9304234296",
+        "name": "Red Hill South",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0382422,
+          -38.3859385
+        ]
+      },
+      "id": "node/9304234296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9304234298",
+        "name": "Moorooduc",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1153474,
+          -38.2431787
+        ]
+      },
+      "id": "node/9304234298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10175216874",
+        "name": "Mickleham",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9120372,
+          -37.5344793
+        ]
+      },
+      "id": "node/10175216874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10234752841",
+        "name": "Humevale",
+        "place": "suburb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.1802277,
+          -37.497861
+        ]
+      },
+      "id": "node/10234752841"
+    }
+  ]
+}

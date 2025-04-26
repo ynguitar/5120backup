@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-01T00:35:18Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/21579127",
+        "capital": "4",
+        "name": "Melbourne",
+        "name:ar": "ملبورن",
+        "name:az": "Melburn",
+        "name:be": "Мельбурн",
+        "name:bg": "Мелбърн",
+        "name:bn": "মেলবোর্ন",
+        "name:de": "Melbourne",
+        "name:el": "Μελβούρνη",
+        "name:en": "Melbourne",
+        "name:en:pronunciation": "ˈmɛlbn̩",
+        "name:eo": "Melburno",
+        "name:es": "Melbourne",
+        "name:fi": "Melbourne",
+        "name:fr": "Melbourne",
+        "name:he": "מלבורן",
+        "name:hi": "मॆल्बोर्न्",
+        "name:hr": "Melbourne",
+        "name:hu": "Melbourne",
+        "name:is": "Melbourne",
+        "name:ja": "メルボルン",
+        "name:kn": "ಮೆಲ್ಬೋರ್ನ್",
+        "name:ko": "멜버른",
+        "name:la": "Melburnia",
+        "name:lt": "Melburnas",
+        "name:mi": "Poipiripi",
+        "name:mk": "Мелбурн",
+        "name:mr": "मेलबर्न",
+        "name:oc": "Melbourne",
+        "name:pl": "Melbourne",
+        "name:pronunciation": "ˈmɛlbn̩",
+        "name:ru": "Мельбурн",
+        "name:sl": "Melbourne",
+        "name:sr": "Мелбурн",
+        "name:sv": "Melbourne",
+        "name:uk": "Мельбурн",
+        "name:wyi": "Naarm",
+        "name:zh": "墨爾本/墨尔本",
+        "name:zh-Hans": "墨尔本",
+        "place": "city",
+        "population": "4585537",
+        "population:date": "2021",
+        "source:name:oc": "Lo Congrès",
+        "source:population": "ABS Urban Centres and Localities",
+        "state_capital": "yes",
+        "website": "https://www.melbourne.vic.gov.au/",
+        "wikidata": "Q3141",
+        "wikipedia": "en:Melbourne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9631732,
+          -37.8142454
+        ]
+      },
+      "id": "node/21579127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30877330",
+        "ele": "50",
+        "name": "Mildura",
+        "name:en": "Mildura",
+        "name:ja": "ミルデューラ",
+        "name:ru": "Милдьюра",
+        "name:uk": "Мілдьюра",
+        "place": "city",
+        "population": "35652",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "website": "https://www.mildura.vic.gov.au/",
+        "wikidata": "Q705829",
+        "wikipedia": "en:Mildura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.1503146,
+          -34.195274
+        ]
+      },
+      "id": "node/30877330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/30917754",
+        "ele": "225",
+        "name": "Bendigo",
+        "name:en": "Bendigo",
+        "name:ja": "ベンディゴ",
+        "name:ru": "Бендиго",
+        "name:zh": "本迪戈",
+        "place": "city",
+        "population": "100649",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "website": "https://www.bendigo.vic.gov.au/",
+        "wikidata": "Q497793",
+        "wikipedia": "en:Bendigo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2826718,
+          -36.7590183
+        ]
+      },
+      "id": "node/30917754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/36701460",
+        "name": "Geelong",
+        "name:en": "Geelong",
+        "name:ja": "ジーロング",
+        "name:pronunciation": "dʒɪˈlɒŋ",
+        "name:ru": "Джилонг",
+        "name:uk": "Джелонг",
+        "name:zh": "吉朗",
+        "place": "city",
+        "population": "180239",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "website": "https://www.geelongaustralia.com.au/",
+        "wikidata": "Q231765",
+        "wikipedia": "en:Geelong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3598241,
+          -38.1493248
+        ]
+      },
+      "id": "node/36701460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/189820294",
+        "name": "Ballarat",
+        "name:el": "Μπαλαράτ",
+        "name:en": "Ballarat",
+        "name:he": "בלאראט",
+        "name:ja": "バララット",
+        "name:pt": "Ballarat",
+        "name:ru": "Балларат",
+        "name:zh": "巴拉瑞特",
+        "place": "city",
+        "population": "105348",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "website": "https://www.ballarat.vic.gov.au/",
+        "wikidata": "Q17856",
+        "wikipedia": "en:Ballarat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.8605645,
+          -37.5623013
+        ]
+      },
+      "id": "node/189820294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2292243210",
+        "ele": "114",
+        "name": "Shepparton",
+        "name:ja": "シェパートン",
+        "name:ru": "Шеппартон",
+        "name:zh": "谢珀顿",
+        "place": "city",
+        "population": "49862",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "wikidata": "Q707030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.3988874,
+          -36.3831633
+        ]
+      },
+      "id": "node/2292243210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2321683713",
+        "name": "Warrnambool",
+        "place": "city",
+        "population": "32894",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "wikidata": "Q705867",
+        "wikipedia": "en:Warrnambool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4814199,
+          -38.3826242
+        ]
+      },
+      "id": "node/2321683713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2324019453",
+        "name": "Traralgon",
+        "name:en": "Traralgon",
+        "name:ja": "トララルゴン",
+        "name:ru": "Траралгон",
+        "place": "city",
+        "population": "27628",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "wikidata": "Q249022",
+        "wikipedia": "en:Traralgon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.5381646,
+          -38.1946636
+        ]
+      },
+      "id": "node/2324019453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9941465039",
+        "ele": "152",
+        "name": "Wodonga",
+        "name:ja": "ウォドンガ",
+        "place": "city",
+        "population": "37839",
+        "population:date": "2021",
+        "source:population": "ABS Urban Centres and Localities",
+        "website": "https://www.wodonga.vic.gov.au/",
+        "wikidata": "Q606307",
+        "wikipedia": "en:Wodonga, Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8880837,
+          -36.1205539
+        ]
+      },
+      "id": "node/9941465039"
+    }
+  ]
+}
